@@ -1,0 +1,78 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-text {
+    font-size: 18px;
+    padding: 8px 14px;
+    width: 303px;
+    border: 2px solid #fd6f3a;
+    outline: none;
+}
+
+.btn {
+    font-size: 18px;
+    padding: 8px 6px;
+    color: white;
+    background: #fb7949;
+    border: 2px solid #fb7949;
+}
+
+.url-container {
+    border: 1px solid #d9d7d7;
+    margin-top: 24px;
+    padding: 12px;
+    border-radius: 4px;
+    box-shadow: 1px 2px 3px 4px #f0f0f0;
+}
+
+.copy {
+    margin-right: 11px;
+    border: none;
+    color: white;
+    background-color: green;
+    padding: 4px 17px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.del {
+    border: none;
+    color: white;
+    background-color: red;
+    padding: 4px 17px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.copy:hover {
+    background-color: darkgreen;
+}
+
+.del:hover {
+    background-color: darkred;
+}
+
+.heading {
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.input-box {
+    margin: auto;
+    text-align: center;
+}
+
+.clear {
+    border: none;
+    margin-top: 15px;
+    color: white;
+    font-weight: bold;
+    background: darkblue;
+    padding: 8px 15px;
+    font-size: 17px;
+    border-radius: 3px;
+    float: right;
+}
